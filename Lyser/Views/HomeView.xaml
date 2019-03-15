@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lyser.Views.HomeView">
+    <ContentPage.Content>
+        <TableView>
+            <TableView.Root>
+                <TableSection Title="Patient info">
+                    <EntryCell Label="Age" Text="{Binding Age}" />
+                </TableSection>
+            </TableView.Root>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>
