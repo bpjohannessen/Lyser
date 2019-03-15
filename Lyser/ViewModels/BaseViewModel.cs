@@ -19,7 +19,7 @@ namespace Lyser.ViewModels
             {
                 global.Age = value;
                 OnPropertyChanged("Age");
-                MessagingCenter.Send(this, "test", value);
+                MessagingCenter.Send(this, "AgeUpdate", value);
             }
         }
 

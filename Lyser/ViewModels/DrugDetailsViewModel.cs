@@ -40,7 +40,7 @@ namespace Lyser.ViewModels
             get => _calcDose;
             set
             {
-                MessagingCenter.Subscribe<BaseViewModel, double>(this, "test", (s, a) =>
+                MessagingCenter.Subscribe<BaseViewModel, double>(this, "AgeUpdate", (s, a) =>
                 {
                     double x = Dose * Age;
                     _calcDose = x;
